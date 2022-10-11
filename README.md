@@ -19,7 +19,7 @@
 function expand() {
     var urltype = document.getElementsByName('url-sel');
    if (urltype[0].checked) {
-       keyWord = 'https://lest-day.github.io/TLB-DB/Timeline-Bookstore/' + keyWord;
+       keyWord = 'https://lest-day.github.io/TLB-DB/Timeline-Bookstore/' + keyWord + '.html' ;
    }
 
 }
@@ -33,7 +33,7 @@ if (keyWord != "") {
 }
 </script>
 </html>
-这是文章备份搜索工具，搜索内容输入格式：“文章分类/文章名称.html”。
+这是文章备份搜索工具，搜索内容输入格式：“文章分类/文章名称”,省略掉所有标点符号和“.html”
 
 
 > [TLB-DB备份区](https://github.com/lest-day/TLB-DB)
