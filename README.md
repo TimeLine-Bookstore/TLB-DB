@@ -1,8 +1,10 @@
 <div id="search-top-box" class="form-search">
     <form id="search-top-box-form" action="dummy" class="input-append">
-        <input id="search-top-box-input" class="text search-query" type="text" size="15" name="query" value="搜索网站" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"><input class="button btn" type="submit" name="search" value="搜索">
+        <input id="search-top-box-input" class="text search-query" type="text" size="15" name="query" value="" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"><input class="button btn" type="submit" name="search" value="搜索">
     </form>
 </div>
+
+----
 
 > [TLB-DB备份区](https://github.com/lest-day/lest-day.github.io/tree/main/TLB-DB)
 > ---
