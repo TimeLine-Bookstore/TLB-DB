@@ -8,7 +8,7 @@
             <input type="radio" name="url-sel" value="author" onclick="document.getElementById('url-pre').innerHTML = ''; document.getElementById('url').size ='25';" checked>按文章名称搜索
         </div>
         <p><span id="url-pre" style="font-family:Consolas;font-size: 12.8px;color: #333;"> </span>
-        <input type="text" id="url" name="url" placeholder="请输入…" size="28" ></p>
+        <input type="text" id="url" name="url" placeholder="请输入…" size="24" ></p>
         <p>
             <button onclick="Go0()">搜索</button>
         </p>
