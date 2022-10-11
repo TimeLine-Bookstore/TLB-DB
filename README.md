@@ -10,7 +10,7 @@
         <p><span id="url-pre" style="font-family:Consolas;font-size: 12.8px;color: #333;"> </span>
         <input type="text" id="url" name="url" placeholder="请输入…" size="24" ></p>
         <p>
-            <button onclick="Go0()">搜索</button>
+            <button onclick="Go0()">搜索备份</button>
         </p>
     </div>
 </body>
