@@ -1,0 +1,29 @@
+<html>
+  <h2>
+    _admin
+  </h2>
+  <table border="1">
+    <tr>
+        <td>建立者</td>              
+        <td>\自动</td>
+    </tr>
+    <tr>
+        <td>建立日期</td>
+        <td> \	</td>
+    </tr>
+    <tr>
+        <td>父页面：</td>
+        <td> \ </td>
+    </tr>
+    <tr>
+        <td>标签：</td>
+        <td> \ </td>
+    </tr>
+  </table>
+  <hr>
+  <textarea class="page-source" readonly="true" rows="20" cols="80">
+[[module ManageSite]]
+
+[!-- Do not edit this page as all changes will be lost --]
+  </textarea>
+</html>  
