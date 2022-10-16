@@ -19,7 +19,7 @@
 function expand() {
     var urltype = document.getElementsByName('url-sel');
    if (urltype[0].checked) {
-       keyWord = 'https://lest-day.github.io/TLB-DB/Timeline-Bookstore/' + keyWord + '.html' ;
+       keyWord = 'https://timeline-bookstore.github.io/TLB-DB/Timeline-Bookstore/' + keyWord + '.html' ;
    }
 
 }
@@ -36,7 +36,7 @@ if (keyWord != "") {
 这是文章备份搜索工具，搜索内容输入格式：“文章分类/文章名称”,省略掉所有标点符号和“.html”,将空格位置替换为“-”。
 
 
-> [TLB-DB备份区](https://github.com/lest-day/TLB-DB)
+> [TLB-DB备份区](https://github.com/TimeLine-Bookstore/TLB-DB)
 > ---
 > 这是TLB维基的手动备份工具组区域，用于手动提取维基数据的数据库，由lest-day每周不定期做维护更新和清理操作。
 
