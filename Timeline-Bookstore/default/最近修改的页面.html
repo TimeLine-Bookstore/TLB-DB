@@ -1,0 +1,122 @@
+<html>
+  <h2>
+    <a href="https://timeline-bookstore.wikidot.com/most-recently-edited">最近修改的页面</a>
+  </h2>
+  <table border="1">
+    <tr>
+        <td>建立者</td>              
+        <td>Asaerror</td>
+    </tr>
+    <tr>
+        <td>建立日期</td>
+        <td>6 May 2022	</td>
+    </tr>
+    <tr>
+        <td>父页面：</td>
+        <td>暂无</td>
+    </tr>
+    <tr>
+        <td>标签：</td>
+        <td>中心</td>
+    </tr>
+  </table>
+  <hr>
+  <textarea class="page-source" readonly="true" rows="20" cols="80">
+[[module CSS]]
+.content-panel .content-type-title > p {
+  margin: 0;
+}
+.content-panel .content-type-title {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5px 20px;
+  background-color: #666;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.8),
+    inset 0 15px 1px rgba(255,255,255,.2),
+    inset 0 15px 10px rgba(255,255,255,.2);
+}
+.content-panel .content-type-description {
+padding: 0 20px;
+text-align: justify;
+}
+.content-panel.content-row .content-type-description {
+padding: 5px 20px;
+}
+.content-panel.content-row .content-type-description-2 {
+padding: 0 20px;
+text-align: justify;
+}
+
+.list-pages-box tr > td:first-child > div {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.list-pages-box tr > td:first-child > div > div:first-child {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.list-pages-box tr > td:first-child > div img.wanderers {
+    min-width: 16px;
+    width: 16px;
+    height: 11px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.list-pages-box tr > td:first-child > div > div:not(.wanderers):not(.wanderers-adult) > img.wanderers {
+    display: none;
+}
+[[/module]]
+
+[[div class="content-panel standalone content-row"]]
+[[div class="content-type-title"]]
+最近修改的页面
+[[/div]]
+
+[[div class="content-type-description-2"]]
+
+[[table style="width: 100%;"]]
+[[row style="font-weight: bold; color: #fff; background-color: #666;"]]
+[[cell style="padding: 0 2px; width: 50%;"]]
+页面
+[[/cell]]
+[[cell style="padding: 0 2px; width: 25%; text-align: center;"]]
+最后更新
+[[/cell]]
+[[cell style="padding: 0 2px; text-align: center;"]]
+更新者
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[/div]]
+
+[[div class="content-type-description"]]
+
+[[module ListPages category="-fragment -customize" order="updated_at desc" prependLine="[[include component:listpages-table]]" perPage="30" appendLine="[[/table]]" separate="false" rss="Most Recently Edited"]]
+[[row]]
+[[cell style="vertical-align: top;"]]
+[[div_]]
+[[div_]]
+%%title_linked%%
+[[/div]]
+[[div_ class="%%category%%"]]
+[[image http://scp-wiki-cn.wdfiles.com/local--files/main/SerpHand.png class="wanderers" alt="Wanderers"]]
+[[/div]]
+[[/div]]
+[[/cell]]
+[[cell style="vertical-align: top; text-align: center;"]]
+%%updated_at|%Y-%m-%d %R|agohover%%
+[[/cell]]
+[[cell style="vertical-align: top; text-align: left;"]]
+[[span class="[[#ifexpr %%created_by_id%%-%%updated_by_id%% |  | fa fa-check-circle ]]" style="color: #5cb85c"]]@<&nbsp;>@[[/span]]%%updated_by_linked%%
+[[/cell]]
+[[/row]]
+[[/module]]
+
+[[/div]]
+[[/div]]
+  </textarea>
+</html>  
