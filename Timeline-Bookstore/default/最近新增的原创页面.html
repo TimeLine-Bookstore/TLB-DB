@@ -1,0 +1,194 @@
+<html>
+  <h2>
+    <a href="https://timeline-bookstore.wikidot.com/most-recently-created-originate">最近新增的原创页面</a>
+  </h2>
+  <table border="1">
+    <tr>
+        <td>建立者</td>              
+        <td>Tortoise God</td>
+    </tr>
+    <tr>
+        <td>建立日期</td>
+        <td>2 May 2022	</td>
+    </tr>
+    <tr>
+        <td>父页面：</td>
+        <td>暂无</td>
+    </tr>
+    <tr>
+        <td>标签：</td>
+        <td>中心、分类</td>
+    </tr>
+  </table>
+  <hr>
+  <textarea class="page-source" readonly="true" rows="20" cols="80">
+[[module CSS]]
+.content-panel .content-type-title > p {
+  margin: 0;
+}
+.content-panel .content-type-title {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5px 20px;
+  background-color: #666;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.8),
+    inset 0 15px 1px rgba(255,255,255,.2),
+    inset 0 15px 10px rgba(255,255,255,.2);
+}
+.content-panel .content-type-description {
+  padding: 0 20px;
+  text-align: justify;
+}
+.content-panel.content-row .content-type-description {
+  padding: 5px 20px;
+}
+
+.list-pages-box > table {
+    width: 100%;
+}
+.list-pages-box th {
+    padding: 0 2px;
+    background-color: #666;
+    color: #fff;
+    font-weight: bold;
+}
+.list-pages-box td {
+    vertical-align: top;
+}
+.list-pages-box th:not(:first-child),
+.list-pages-box td:not(:first-child) {
+    text-align: center;
+}
+.list-pages-box tr > td:first-child > div {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.list-pages-box tr > td:first-child > div > div:first-child {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.list-pages-box tr > td:first-child > div img.wanderers {
+    min-width: 16px;
+    width: 16px;
+    height: 11px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.list-pages-box tr > td:first-child > div > div:not(.wanderers):not(.wanderers-adult) > img.wanderers {
+    display: none;
+}
+
+span.rating-tag {
+    display: inline-block;
+    padding: 0.125rem 0.625rem;
+    border-radius: 0.3125rem;
+    text-decoration: none;
+    background-color: #633;
+    color: #fff;
+    cursor: pointer;
+}
+span.rating-tag.ratinga {
+    background-color: #2c577f;
+}
+span.rating-tag.ratinga::before {
+    content: "多半好评";
+}
+span.rating-tag.rating {
+    background-color: #bca458;
+}
+span.rating-tag.rating::before {
+    content: "褒贬不一";
+}
+span.rating-tag.ratingb {
+    background-color: #c96b63;
+}
+span.rating-tag.ratingb::before {
+    content: "多半差评";
+}
+span.rating-tag.ratingl {
+    background-color: #a7a7a7;
+}
+span.rating-tag.ratingl::before {
+    content: "冷门作品";
+}
+span.rating-tag + div[id*="hovertip"] {
+    display: none;
+}
+[[/module]]
+
+[[div class="content-panel standalone content-row"]]
+[[div class="content-type-title"]]
+最近新增的原创作品
+[[/div]]
+
+[[div class="content-type-description"]]
+
+[[module ListPages category="-fragment -deleted -tgc" tags="原创" order="created_at desc" perPage="30" separate="false" rss="Most Recently Created CN"]]
+
+[[head]]
+[[table]]
+[[row]]
+[[hcell style="width: 50%;"]]
+页面
+[[/hcell]]
+[[hcell style="width: 25%;"]]
+发布日期
+[[/hcell]]
+[[hcell]]
+评价
+[[/hcell]]
+[[/row]]
+[[/head]]
+
+[[body]]
+[[row]]
+[[cell]]
+[[div_]]
+[[div_]]
+%%title_linked%%
+[[/div]]
+[[div_ class="%%category%%"]]
+[[image https://scp-wiki-cn.wdfiles.com/local--files/main/SerpHand.png class="wanderers" alt="Wanderers"]]
+[[/div]]
+[[/div]]
+[[/cell]]
+[[cell]]
+%%created_at|%Y-%m-%d %R|agohover%%
+[[/cell]]
+[[cell]]
+[[#ifexpr %%rating_votes%% == 0 | [!-- ]][[span_ id="info-%%category%%-%%name%%" class="rating-tag rating[[#ifexpr %%rating_votes%% >= 3 && (%%rating_votes%%-%%rating%%)/2/%%rating_votes%% < 0.35 | a ]][[#ifexpr %%rating_votes%% >= 3 && (%%rating_votes%%-%%rating%%)/2/%%rating_votes%% > 0.65 | b ]][[#ifexpr %%rating_votes%% < 3 | l ]]"]][[/span]][!----][[#ifexpr %%rating_votes%% == 0 |  | [!-- ]][[span_ id="info-%%category%%-%%name%%" class="rating-tag ratingl"]][[/span]][!----]
+[[div id="info-%%category%%-%%name%%-hovertip"]]
+**发布者：**%%created_by_linked%%
+
+**评分：**%%rating%%
+
+**评论数：**%%comments%%
+[[/div]]
+[[/cell]]
+[[/row]]
+[[/body]]
+
+[[foot]]
+[[/table]]
+[[/foot]]
+
+[[/module]]
+
+[[/div]]
+[[/div]]
+
+[[module ListPages category="-fragment -deleted" tags="原创" votes="<3" created_at="last 2 day" order="created_at desc" perPage="250" limit="250" separate="false" wrapper="false"]]
+[[%%content{0}%%module CSS]]
+span.rating-tag.ratingl#u-info-%%category%%-%%name%% {
+    background-color: #70b590;
+}
+span.rating-tag.ratingl#u-info-%%category%%-%%name%%::before {
+    content: "最新发布";
+}
+[[%%content{0}%%/module]]
+[[/module]]
+  </textarea>
+</html>  
