@@ -1,0 +1,69 @@
+<html>
+  <h2>
+    <a href="https://timeline-bookstore.wikidot.com/tag-search">標籤搜索</a>
+  </h2>
+  <table border="1">
+    <tr>
+        <td>建立者</td>              
+        <td>Asaerror</td>
+    </tr>
+    <tr>
+        <td>建立日期</td>
+        <td>18 Jun 2022	</td>
+    </tr>
+    <tr>
+        <td>父页面：</td>
+        <td>站内搜索</td>
+    </tr>
+    <tr>
+        <td>标签：</td>
+        <td>暂无</td>
+    </tr>
+  </table>
+  <hr>
+  <textarea class="page-source" readonly="true" rows="20" cols="80">
+[[note]]
+[[html]]
+
+<body>
+    <div style="text-align:center">
+        <div id="url-type">
+            <input type="radio" name="url-sel" value="author" onclick="document.getElementById('url-pre').innerHTML = ''; document.getElementById('url').size ='25';" checked>标签搜索
+        </div>
+        <p><span id="url-pre" style="font-family:Consolas;font-size: 12.8px;color: #333;"> </span>
+        <input type="text" id="url" name="url" placeholder="请输入…" size="25" ></p>
+        <p>
+            <button onclick="Go0()">搜索</button>
+        </p>
+    </div>
+</body>
+
+<script language="javascript">
+
+    var keyWord;
+
+function expand() {
+    var urltype = document.getElementsByName('url-sel');
+   if (urltype[0].checked) {
+       keyWord = 'http://timeline-bookstore.wikidot.com/search:tags/tags/%2b' + keyWord;
+   }
+
+}
+
+function Go0(){
+keyWord=document.getElementById("url").value;
+if (keyWord != "") {
+    expand();
+  var result=keyWord;
+  window.open(result);
+}
+}
+
+</script>
+
+[[/html]]
+[[/note]]
++ 使用方法
+在框里输入你要加的标签，记住标签与标签之间要空格，不要加“+”，如果你不要某一个标签就输入“-这个标签的名称”
+  </textarea>
+</html>  
