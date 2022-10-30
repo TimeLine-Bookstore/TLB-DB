@@ -1,0 +1,171 @@
+<html>
+  <h2>
+    <a href="https://timeline-bookstore.wikidot.com/XXXX">XXXX</a>
+  </h2>
+  <table border="1">
+    <tr>
+        <td>建立者</td>              
+        <td>Tortoise God</td>
+    </tr>
+    <tr>
+        <td>建立日期</td>
+        <td>	</td>
+    </tr>
+    <tr>
+        <td>父页面：</td>
+        <td>无</td>
+    </tr>
+    <tr>
+        <td>标签：</td>
+        <td>无</td>
+    </tr>
+  </table>
+  <hr>
+  <textarea class="page-source" readonly="true" rows="20" cols="80">
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[[=]]
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+这里是由您创建的所有页面一览。
+请注意如果您更换过ID（例如：换号，删号；仅更换ID名称则不受影响），这里不会显示旧ID创建的页面。
+
+如果仍然无显示，请[[a href="http://timeline-bookstore.wikidot.com/system:my-pages/created_by/%%title%%"]]点击此处[[/a]]加载。
+
+不过这里还是建议一下您写个作者页，
+毕竟作者页更个性化一些的。
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+错误：您没有登录。
+[[/div]]
+[[/div]]
+
+[[/=]]
+[[toc]]
+
+------
+
++ 置顶：您在TLB的文章
+//以下的页面是您创建的__**带有“原创”标签的**页面__，方便您整理作品//
+
+[[tabview]]
+[[tab ■]]
+[[module ListPages created_by="@URL|DrClef" category="-fragment -deleted" tags="原创" perPage="6"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+[//__/%%fullname%%__//]
+
+创建时间:  {{%%date|%Y %B %e , %H:%M%%}}
+分数: {{[%%rating%%](+[[#expr (%%rating_votes%%+%%rating%%)/2]]/-[[#expr (%%rating_votes%%-%%rating%%)/2]])}}
+最后编辑于: {{%%updated_at%%}}，
+由 [[*user %%updated_by%%]] 编辑
+标签: %%tags%%
+------
+[[/module]]
+[[/tab]]
+[[tab 隐藏]]
+点击■显示列表
+[[/tab]]
+[[/tabview]]
+
++ 置顶：您在TLB的合集
+//以下的页面是您创建的__**分类为collection的页面**页面__，方便您整理合集//
+
+[[tabview]]
+[[tab ■]]
+[[module ListPages created_by="@URL|DrClef" category="collection" tags="" perPage="6"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+[//__/%%fullname%%__//]
+
+创建时间:  {{%%date|%Y %B %e , %H:%M%%}}
+分数: {{[%%rating%%](+[[#expr (%%rating_votes%%+%%rating%%)/2]]/-[[#expr (%%rating_votes%%-%%rating%%)/2]])}}
+最后编辑于: {{%%updated_at%%}}，
+由 [[*user %%updated_by%%]] 编辑
+标签: %%tags%%
+------
+[[/module]]
+[[/tab]]
+[[tab 隐藏]]
+点击■显示列表
+[[/tab]]
+[[/tabview]]
+
+------
+
+------
+
++ 通用页面
+//以下的页面是您创建的__所有**通用页面**__，这类页面只有您与管理员有编辑的权力。//
+[[module NewPage size="20" button="快速创建通用页面"]]
+
+[[tabview]]
+[[tab ■]]
+[[module ListPages created_by="@URL|DrClef" category="_default" perPage="10"]]
+**%%title_linked%%**
+//创建于：//%%created_at%%
+//编辑数：//%%revisions%%
+------
+[[/module]]
+[[/tab]]
+[[tab 隐藏]]
+点击■显示列表
+[[/tab]]
+[[/tabview]]
+
+------
+
++ 人物设定页面
+//以下的页面是您创建的**__人物设定（character）页面__**，这类页面只有您与管理员有编辑的权力。//
+[[module NewPage size="20" category="character" button="快速创建合作类页面"]]
+
+[[tabview]]
+[[tab ■]]
+[[module ListPages created_by="@URL|DrClef" category="character" perPage="6"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+
+创建时间:  {{%%date|%Y %B %e , %H:%M%%}}
+分数: {{[%%rating%%](+[[#expr (%%rating_votes%%+%%rating%%)/2]]/-[[#expr (%%rating_votes%%-%%rating%%)/2]])}}
+最后编辑于: {{%%updated_at%%}}，
+由 [[*user %%updated_by%%]] 编辑
+标签: %%tags%%
+------
+[[/module]]
+[[/tab]]
+[[tab 隐藏]]
+点击■显示列表
+[[/tab]]
+[[/tabview]]
+
+------
+
++ 合作类页面
+//以下的页面是您创建的**__合作类（collab）页面__**，属于共享页面，所有网站成员都有编辑的权利//
+[[module NewPage size="20" category="collab" button="快速创建合作类页面"]]
+
+[[tabview]]
+[[tab ■]]
+[[module ListPages created_by="@URL|DrClef" category="collab" perPage="7"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+
+创建时间:  {{%%date|%Y %B %e , %H:%M%%}}
+分数: {{[%%rating%%](+[[#expr (%%rating_votes%%+%%rating%%)/2]]/-[[#expr (%%rating_votes%%-%%rating%%)/2]])}}
+最后编辑于: {{%%updated_at%%}}，
+由 [[*user %%updated_by%%]] 编辑
+标签: %%tags%%
+------
+[[/module]]
+[[/tab]]
+[[tab 隐藏]]
+点击■显示列表
+[[/tab]]
+[[/tabview]]
+
+------
+  </textarea>
+</html>  
