@@ -1,0 +1,362 @@
+<html>
+  <h2>
+    <a href="https://timeline-bookstore.wikidot.com/XXXX">XXXX</a>
+  </h2>
+  <table border="1">
+    <tr>
+        <td>建立者</td>              
+        <td>Tortoise God</td>
+    </tr>
+    <tr>
+        <td>建立日期</td>
+        <td>30 Apr 2022	</td>
+    </tr>
+    <tr>
+        <td>父页面：</td>
+        <td>无</td>
+    </tr>
+    <tr>
+        <td>标签：</td>
+        <td>导航管理</td>
+    </tr>
+  </table>
+  <hr>
+  <textarea class="page-source" readonly="true" rows="20" cols="80">
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+[[div class="side-block" ]]
+[[html]]
+<script language="JavaScript">
+function addZero(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+day = new Date()
+year = day.getFullYear ()
+month = addZero(day.getMonth()+1)
+date = addZero(day.getDate())
+hour = addZero(day.getHours())
+minute = addZero(day.getMinutes())
+second = addZero(day.getSeconds())
+s=year+"/"+month+"/"+date+" "+hour+":"+minute+":"+second;
+document.write('<div style="font-size:70%;color:blue;text-align:center;background:white;border-radius:10px;width:50%;margin-left:25%;margin-right:25%">'+s+'</div>')
+//
+</script>
+[[/html]]
+[[=]]
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+欢迎，[[size 1.3em]]**%%title%%**[[/size]]！
+
+= [[size 70%]]//以下信息通过List User系统整理//[[/size]]
+**您的用户名：**%%title%%
+**账号ID：**%%number%%
+**账号主页：**[[user %%title%%]]
+
+[[a href="/system:my-pages/created_by/%%title%%"]]
+= **>  查看您创建的所有页面  <**
+[[/a]]
+= **[/customize:%%number%%/edit/true/title/%%name%%的个人化版式设定页 >  切换个人化版式  <]**
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+欢迎，**匿名读者！**
+
+**您的用户名：**//未登录//
+**账号ID：**//未登录//
+**账号主页：**//未登录//
+
+[[=]]
+如果您也想创作文章,
+您可以**[*https://www.wikidot.com/default--flow/login__LoginPopupScreen?originSiteId=4803609&openerUri=https://timeline-bookstore.wikidot.com 登录您的Wikidot账号]**
+然后**[/system:join 加入网站]**，进行创作.
+
+**没有Wikidot账号？**
+**[*https://www.wikidot.com/default--flow/login__CreateAccountScreen?originSiteId=4803609 创建一个Wikidot账号！]**
+[[/=]]
+[[/div]]
+[[/div]]
+[[module ListUsers users="."]]
+[[#ifexpr %%number%% == 6600193 | //您好，尊敬的站主%%title%%。
+欢迎回到时间轴书店！// |  ]]
+[[#ifexpr %%number%% == 7850356 | //嗨，管理员%%title%%
+欢迎回到时间轴书店！// |  ]]
+[[#ifexpr %%number%% == 6371490 | //嗨，管理员%%title%%
+欢迎回到时间轴书店！// |  ]]
+[[#ifexpr %%number%% == 6373322 | //嗨，管理员%%title%%
+欢迎回到时间轴书店！// |  ]]
+[[#ifexpr %%number%% == 6682340 | //嗨，管理员%%title%%
+欢迎回到时间轴书店！// |  ]]
+[[#ifexpr %%number%% == 6120541 | //嗨，版主%%title%%
+欢迎回到时间轴书店！// |  ]]
+[[#ifexpr %%number%% == 8261419 | //嗨，实习管理员GCTBH
+欢迎回到时间轴书店！
+您还在实习期
+努力表现转正吧！// |  ]]
+[[#ifexpr %%number%% == 8162568 | //警告：
+您登入了TLB的bot！
+请立刻登出！
+不管您是谁，这是错误的！
+**别让我找到你是谁**// |  ]]
+
+[[/module]]
+[[/=]]
+[[/div]]
+
+------
+
+[[div class="side-block"]]
+[[div class="heading"]]
+新人资讯
+[[/div]]
+[[div class="menu-item"]]
+**[[size 1.3em]][[[system:join|◆加入书店]]][[/size]]**
+[[/div]]
+[[div class="menu-item"]]
+[[[guide-for-newbies|◆新手指南]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[site-rules|◆网站站规]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[how-to-write|◇如何撰写一篇文档]]]
+[[/div]]
+[!--[[div class="menu-item"]]
+[[[faq|◇常见问题解答]]]
+[[/div]]等有了再弄吧--]
+[[div class="menu-item"]]
+[[[public:message-wall |◇留言墙]]]
+[[/div]]
+[[/div]]
+
+------
+
+[[div class="side-block"]]
+[[div class="heading"]]
+网站
+[[/div]]
+[[div class="menu-item"]]
+[[[main |◆主页]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[most-recently-created|◇最近新增的页面]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[system:recent-changes|◇最近的修改]]] 
+[[/div]]
+[[div class="menu-item"]]
+[[[top-rated-pages|◇最高评分的页面]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[lowest-rated-pages|◇最低评分的页面]]]
+[[/div]]
+[[div class="menu-item"]]
+[https://search.ahnu.cf/ ◇谷歌搜索引擎镜像]
+[[/div]]
+[[/div]]
+
+------
+
+[[div class="side-block"]]
+[[div class="heading"]]
+系列网站
+[[/div]]
+[[div class="menu-item"]]
+[http://tlb-sandbox.wikidot.com ◆沙盒站]
+[[/div]]
+[[div class="menu-item"]]
+[http://tlb-files.wikidot.com ◆文件存储库]
+[[/div]]
+[[div class="menu-item"]]
+[http://tortoise-god-music.wikidot.com ◆龟神音乐电台]
+[[/div]]
+[[/div]]
+
+------
+
+[[div class="side-block"]]
+[[div class="heading"]]
+随机
+[[/div]]
+[[div class="menu-item"]]
+[*http://www.wikidot.com/random-site.php ◆随机wikidot网站]
+[[/div]]
+[[div class="menu-item"]]
+[[[random:random|◆全站随机]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[random:pages|◇随机原创]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[random:random-movepage|◇随机搬运页面]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[random:random-personnel|◇随机人设页]]]
+[[/div]]
+[[/div]]
+
+------
+
+[[div class="side-block"]]
+[[div class="heading"]]
+社交
+[[/div]]
+[[div class="menu-item"]]
+[[[forum:start|◆讨论区]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[forum:recent-threads| ◇最近讨论串]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[forum:recent-posts| ◇最近讨论帖]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[collab:members-pages|◆作者中心页]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[character-centre|◆人设中心页]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[contest-centre|◆竞赛中心页]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[collab:compilation-center|◆合集中心页]]]
+[[/div]]
+[[/div]]
+
+------
+
+[[div class="heading"]]
+杂项
+[[/div]]
+[[div class="side-block resources"]]
+[[collapsible show="▷实用工具" hide="▼实用工具"]]
+[[div class="menu-item"]]
+**wikidot内**
+[[/div]]
+[[div class="menu-item"]]
+[*http://scp-wiki-cn.wikidot.com/system:page-tags/tag/版式#pages ◇中分的版式]
+[[/div]]
+[[div class="menu-item"]]
+[*http://scp-wiki-cn.wikidot.com/system:page-tags/tag/样版#pages ◇中分的样板]
+[[/div]]
+[[div class="menu-item"]]
+[*http://scp-wiki-cn.wikidot.com/system:page-tags/tag/组件#pages ◇中分的组件]
+[[/div]]
+[[div class="menu-item"]]
+[*http://scp-wiki-cn.wikidot.com/credit:start ◇著作信息模块]
+[[/div]]
+[[div class="menu-item"]]
+[*http://scp-wiki-cn.wikidot.com/ratemod:sentimentbar ◇评分占比条]
+[[/div]]
+[[div class="menu-item"]]
+[*http://scp-wiki-cn.wikidot.com/css-theme-preparation-tool ◇CSS制作工具]
+[[/div]]
+
+[[div class="menu-item"]]
+**wikidot外**
+[[/div]]
+[[div class="menu-item"]][*http://www.ezxcom.com/gn/ztools/color/index.php ◇十六[!--哪來的二進製？？？--]进制色码生成器]
+[[/div]]
+[[div class="menu-item"]]
+[*https://www.thinkcmf.com/font/font_awesome/icons.html ◇奥森图标大全]
+[[/div]]
+[[div class="menu-item"]]
+[*https://www.aies.cn/ ◇简繁体转换器]
+[[/div]]
+[[/collapsible]]
+[[/div]]
+@@@@
+[[div class="side-block resources"]]
+[[collapsible show="▷指导栏目" hide="▼指导栏目"]]
+[[div class="menu-item"]]
+[[[guide-hub|◆指导中心]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[tag-guide|◆标签指导]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[collab:folk-tag | ◇民间标签列表]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[movement-guide|◆搬运指南]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[wiki-syntax|◆维基语法]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[syntax-quick-reference|◇实用工具传送门]]]
+[[/div]]
+[[/collapsible]]
+[[/div]]
+@@@@
+[[div class="side-block" ]]
+[[collapsible show="▷管理专用" hide="▼管理专用"]]
+[[div class="menu-item"]]
+[[[_admin|◆管理后台]]]
+[[/div]]
+[[div class="menu-item"]]
+[http://tlb-command.wikidot.com/ ◆职员专站]
+[[/div]]
+[[div class="menu-item"]]
+[[[system:list-all-categories|◇所有页面]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[system:members|◇成员列表]]]
+[[/div]]
+[[div class="menu-item"]]
+[[[nav:side|◇侧栏]]] [[[nav:top|◇顶栏]]] [[[component:theme|◇版式]]]
+[[/div]]
+[[/collapsible]]
+[[/div]]
+@@@@
+[[div class="side-block resources"]]
+[[collapsible show="▷标签云" hide="▼标签云"]]
+[[module TagCloud limit="200" target="system:page-tags"]]
+[[module PagesByTag]]
+[[/collapsible]]
+[[/div]]
+
+------
+
+[[div class="side-block" ]]
+[[div class="heading"]]
+社交媒体
+[[/div]]
+[[div class="menu-item"]]
+[https://space.bilibili.com/699986625/ ◇Bilibili：龟大神有些小烦恼]
+[https://github.com/TimeLine-Bookstore ◇Github：TimeLine-Bookstore]
+[http://netboard.wikidot.com/author:6600193 ◇Netboard 官号作者页]
+[[/div]]
+[[/div]]
+
+------
+
+[[div class="side-block" ]]
+[[=]]
+
+[[html]]
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="CC BY-SA 4.0" width="100" height="35">
+[[/html]]
+
+[[size 80%]]时间轴书店
+//适用[http://timeline-bookstore.wikidot.com/sthofcc CC BY-SA 4.0协议]//[[/size]]
+[[/=]]
+[[/div]]
+
+
+
+~~~~
+
+[[a href="###" class="close-menu"]]
+[[image http://timeline-bookstore.wikidot.com/local--files/nav:side/black.png style="z-index=-1; opacity: 0.3;"]]
+[[/a]]
+  </textarea>
+</html>  
